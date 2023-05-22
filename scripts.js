@@ -8,18 +8,19 @@ const map = new mapboxgl.Map({
 });
 // add navigation control
 map.addControl(new mapboxgl.NavigationControl());
-
+// add shapefile
 map.on('load', function () {
     map.addSource('states-india', {
         type: 'geojson',
         data: 'data/states-india.geojson',
     }),
-
+// add fill and line layers
         map.addLayer({
             id: 'fill-states-india',
             type: 'fill',
             source: 'states-india',
         })
+// figure out how to add styling dependant on the string variable
     map.addLayer({
         id: 'line-states-india',
         type: 'line',

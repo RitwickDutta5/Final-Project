@@ -78,7 +78,7 @@ nav {
 }
 
 /* make each button the same color as the lines */
-#fit-africa {
+#event-one {
     background-color: #a83232;
     border: 1px solid #2A8387;
     border-radius: 4px;
@@ -100,7 +100,7 @@ nav {
     width: 100%;
 }
 
-#fit-russia {
+#event-two {
     background-color: #a83232;
     border: 1px solid #2A8387;
     border-radius: 4px;
